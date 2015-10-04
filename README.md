@@ -1,2 +1,13 @@
 # jps-algorithm
 Javascript implementation of JPS algorithm.
+
+## Run
+You need to [Nodejs](https://nodejs.org/en/):
+```
+node main.js
+```
+
+## Sources
+* https://en.wikipedia.org/wiki/Jump_point_search
+* https://harablog.wordpress.com/2011/09/07/jump-point-search/
+* http://zerowidth.com/2013/05/05/jump-point-search-explained.html
