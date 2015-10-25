@@ -2,7 +2,7 @@
 Javascript implementation of JPS algorithm.
 
 ## Run
-You need to [Nodejs](https://nodejs.org/en/):
+You need to install [Nodejs](https://nodejs.org/en/):
 ```
 node main.js
 ```
