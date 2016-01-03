@@ -2,7 +2,7 @@
 
 var Utils = require('utils');
 var JPS = require('jps');
-
+var AStar = require('astar');
 
 var mapWidth	= 10;
 var mapHeight	= 7;
@@ -45,3 +45,25 @@ for (var i=0; i<coords.length; ++i)
 
 console.log("map:");
 console.log(map.toString());
+
+var nodeSrc = new Utils.Node(source, 0, null);
+var nodeDst = new Utils.Node(destination, 0, null);
+
+var astar = new AStar(map, nodeSrc, nodeDst);
+
+//astar.update();
+//astar.update();
+
+while (!astar.update())
+{
+	// nothing else to do
+}
+
+console.log(astar.getPath());
+
+
+
+
+
+
+
